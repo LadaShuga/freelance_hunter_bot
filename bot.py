@@ -19,8 +19,6 @@ if not BOT_TOKEN:
 # ========== НАСТРОЙКА ПУТЕЙ ==========
 os.makedirs("data", exist_ok=True)
 
-# ========== ИМПОРТ КОНФИГУРАЦИИ ==========
-import config
 
 # ========== ИНИЦИАЛИЗАЦИЯ БОТА ==========
 bot = Bot(token=BOT_TOKEN)
