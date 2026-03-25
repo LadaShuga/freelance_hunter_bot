@@ -9,6 +9,13 @@ from typing import Dict, Optional
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 
+# Берем токен из переменных окружения
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+if not BOT_TOKEN:
+    print("Ошибка: BOT_TOKEN не найден!")
+    exit(1)
+
 # ========== НАСТРОЙКА ПУТЕЙ ==========
 os.makedirs("data", exist_ok=True)
 
