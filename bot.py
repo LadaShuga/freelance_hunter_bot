@@ -23,7 +23,7 @@ os.makedirs("data", exist_ok=True)
 import config
 
 # ========== ИНИЦИАЛИЗАЦИЯ БОТА ==========
-bot = Bot(token=config.BOT_TOKEN)
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
 # ========== СОСТОЯНИЯ ПОЛЬЗОВАТЕЛЕЙ (упрощенный FSM) ==========
