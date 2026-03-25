@@ -1,0 +1,6 @@
+config.py
+*.db
+__pycache__/
+.env
+Dockerfile
+docker-compose.yml
